@@ -1,0 +1,72 @@
+/* AppNavbar.css */
+
+.navbar {
+    background-color: #333;
+    color: #0ff0fc;
+    padding: 10px 0;
+    margin-top: 8px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    color: #0ff0fc;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .auth-links a {
+    /* color: #fff; */
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .auth-links{
+    background: linear-gradient(to top right, #a37b35, #f2eb91, #a17336);
+    padding: 5px;
+    color: #0ff0fc;
+  border-radius: 8px;
+  }
+  .Logo{
+    height: 70px;
+    margin-top: 10px;
+    filter: drop-shadow(2px 2px 8px #e3e3e3);
+  }
+  .search-bar > button:nth-child(2) > svg:nth-child(1) {
+    margin-left: -36px;
+    background-color: transparent;
+  }
+  .search-bar > button:nth-child(2) {
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-left-width: 0px;
+    border-left-style: solid;
+  }
+  .search-bar > input:nth-child(1) {
+    border-radius: 8px;
+  }
+    
